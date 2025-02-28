@@ -1,0 +1,51 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 19rem;
+    background-color: var(--footer);
+}
+
+.footer__title {
+    font-weight: 600;
+    font-size: 2.25rem;
+}
+
+.footer__text {
+    color: var(--light-gray);
+    font-size: 1.25rem;
+    margin: 1.25rem 0 2.5rem 0;
+}
+
+.footer__contact {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer__contact-email {
+    padding: 0.75rem 0.9rem;
+    border: 1px solid var(--email-border);
+    border-radius: 0.5rem;
+    width: 15vw;
+}
+
+.footer__contact-email::placeholder {
+    font-family: var(--font);
+    color: var(--light-gray);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer__contact-signin {
+    padding: 0.75rem 1.25rem;
+    background-color: var(--red);
+    color: var(--white);
+    font-weight: 500;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.footer__copyright {
+    color: var(--copyright);
+    margin-top: 2rem;
+}

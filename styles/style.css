@@ -1,0 +1,36 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("statistics.css");
+@import url("openings.css");
+@import url("feedbacks.css");
+@import url("footer.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --red: #8E2424;
+    --light-red: #C3191908;
+    --light-red-button: #8E24240D;
+    --principal-black: #101828;
+    --dark-gray: #3A404E;
+    --light-gray: #667085;
+    --light-border: #EAECF0;
+    --email-border: #D0D5DD;
+    --copyright: #98A2B3;
+    --white: #FFFFFF;
+    --footer: #F9FAFB;
+    --font: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--white);
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--principal-black);
+}

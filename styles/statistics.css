@@ -1,0 +1,28 @@
+.statistics {
+    display: flex;
+    padding: 0 5rem 6rem 5rem;
+}
+
+.statistics__list {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+    gap: 2rem;
+    list-style: none;
+}
+
+.list__item-number {
+    font-weight: 600;
+    font-size: 3.75rem;
+    color: var(--red);
+}
+
+.list__item-title {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 12px 0 8px 0;
+}
+
+.list__item-text {
+    color: var(--light-gray);
+}

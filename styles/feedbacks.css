@@ -1,0 +1,39 @@
+.feedbacks{
+    padding: 0 7rem 6rem 7rem;
+}
+
+.feedbacks__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem;
+    background-color: var(--light-red);
+    border-radius: 1rem;
+}
+
+.feedbacks__card__about {
+    color: var(--red);
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.feedbacks__card__title {
+    font-weight: 500;
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+    width: 60%;
+}
+
+.feedbacks__card__username {
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 4px;
+}
+
+.feedbacks__card__position {
+    font-size: 0.8rem;
+    color: var(--light-gray);
+}

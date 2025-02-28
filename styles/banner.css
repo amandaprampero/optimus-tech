@@ -1,0 +1,25 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 6rem 0 6rem 0;
+}
+
+.banner__about {
+    font-weight: 600;
+    color: var(--red);
+}
+
+.banner__title {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.banner__text {
+    font-size: 1.25rem;
+    color: var(--light-gray);
+    text-align: center;
+    width: 38%;
+}

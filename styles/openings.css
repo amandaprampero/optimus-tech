@@ -1,0 +1,68 @@
+.openings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 5rem;
+}
+
+.openings__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+}
+
+.openings__container__about {
+    padding: 4px 12px;
+    color: var(--red);
+    background-color: var(--light-red-button);
+    border-radius: 1rem;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.openings__container__title {
+    font-weight: 600;
+    font-size: 2.25rem;
+    margin: 1rem 0 1.25rem 0;
+}
+
+.openings__container__text {
+    color: var(--light-gray);
+    font-size: 1.25rem;
+    margin-bottom: 4rem;
+}
+
+.openings__areas__jobs-title {
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-bottom: 1.8rem;
+    margin-top: 4rem;
+}
+
+.openings__areas__jobs__card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border: 1px solid var(--light-border);
+    border-radius: 1rem;
+    width: 40vw;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.card__description {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.card__description-text {
+    font-weight: 500;
+    color: var(--light-gray);
+}
